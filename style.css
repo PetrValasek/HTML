@@ -1,0 +1,119 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(39, 83, 148);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #0b098681;
+    color: white;
+  }
+  @import url(https://fonts.googleapis.com/css2?family=Raleway&display=swap%27);
+  body {
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: 'Raleway', sans-serif;
+  }
+  body {
+    background-image: linear-gradient(150deg, #13036b, #087074);
+    min-height: 100vh;
+}
+  
+  table, th, td {
+      margin-left: 170px;
+      background-color: white;
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+  }
+  
+  .petr {
+      border-radius: 15px;
+  }
+  
+  caption {
+      color: white;
+      text-shadow: 0px 0px 5px rgb(179, 179, 179);
+      background-image: linear-gradient(140deg, #2c3e50, #34495e);
+      border-top: 1px solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-radius: 10px 10px 0px 0px;
+  }
+  
+  .odkaz {
+      text-align: center;
+      color: white;
+      text-shadow: 0px 0px 5px rgb(179, 179, 179);
+      background-image: linear-gradient(140deg, #2c3e50, #34495e);
+  }
+  
+  .first {
+      background-color: rgb(197, 197, 197);
+  }
+  
+  .second {
+      background-color: rgb(238, 238, 238);
+  }
+  
+  a {
+      color: white;
+  }
+  
+  a:hover {
+      color: rgb(173, 173, 173);
+      transition: 0.15s;
+  }
+  
+  h2 {
+      color: white;
+      text-shadow: 0px 0px 5px rgb(179, 179, 179);
+      text-align: center;
+      border-radius: 10px;
+      width: 50%;
+      margin-left: 280px;
+      background-image: linear-gradient(140deg, #2c3e50, #34495e);
+      border: 1px solid #2c3e50;
+  }
+  
+  header {
+    background-color: rgba(19, 127, 146, 0.349);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(219, 219, 139);
+    margin-top: 50px;
+}
+
+main {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: #46686681;
+}
+  
+  dl {
+      text-align: center;
+  }
+  
+  dt {
+      font-size: 20px;
+  }

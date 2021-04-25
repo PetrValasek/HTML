@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" />
+    <title>HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Tabulka  <i class="fa fa-table" aria-hidden="true"></i></h1>
+    </header>
+    <div class="topnav">
+        <a class="active" href="table/table.html">Tabulka</a>
+        <a href="multimedia/multimedia.html">Multimedia</a>
+        <a href="foto/foto.html">Fotografie</a>
+      </div>
+      <main>
+        <h2>Slavná osobnost: Petr Bezruč <i class="fa fa-user" aria-hidden="true"></i></h2>
+        <table border="1">
+            <caption>Vizitka slavné osobnosti</caption>
+            <thead>
+                <tr>
+                    <th class="first">Portrét</th>
+                    <th class="first" colspan="2">Základní údaje</th>
+                    <th class="first">Významné činy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="second" rowspan="3"><img class="petr" src="Petr_Bezruc.png" alt=""></td>
+                    <td class="second" colspan="2">Petr Bezruč</td>
+                    <td class="second" rowspan="4">Významný český spisovatel <br>Žil v Ostravě a napsal Slezské písně <br><br>Díla:
+                        <br>Labutinka, <br>Jen jedenkrát
+                        , <br>Maryčka Magdónova, <br>Ostrava, <br>Návrat, a další.
+                    </td>
+                </tr>
+                <tr>
+<td class="second"><i class="fa fa-battery-full" aria-hidden="true"></i> 1867, Opava</td>
+                    <td class="second"><i class="fa fa-battery-empty" aria-hidden="true"></i> 1958, Olomouc</td>
+                </tr>
+                <tr>
+                    <td class="second" rowspan="2" colspan="2"> Český spisovatel.<br>Chodil na Slovanské gymnázium v Brně,<br>
+                        Nejhorší prospěch měl z němčiny, matiky a zpěvu.</td>
+                </tr>
+                <tr>
+                    <td class="second">Petr Bezruč</td>
+                </tr>
+                <tr>
+                    <td class="odkaz" colspan="4"><a href="https://cs.wikipedia.org/wiki/Petr_Bezruč"
+                            target="_blank">Odkaz na Wikipedii <i class="fa fa-link" aria-hidden="true"></i></a></td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+        <h2>Značky Tabulky</h2>
+        <dl>
+            <dt><strong>colspan</strong></dt>
+            <dd>Atribut zajišťující rozpětí přes několik sloupců.</dd>
+            <dt><strong>rowspan</strong></dt>
+            <dd>Atribut zajišťující rozpětí přes několik řádků.</dd>
+            <dt><strong>tr</strong></dt>
+            <dd>Vytvoření řady tabulky</dd>
+      </main>
+</body>
+</html>
